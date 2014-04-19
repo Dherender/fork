@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <title>Carousel Template for Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/sitecss.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </head>
+<!--header-->
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="../" class="navbar-brand">TRACKDOG</a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="./today">今日</a>
+        </li>
+        <li>
+          <a href="./tomorrow">明天</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      	<li>
+	      <a href="./login">加入</a>
+      	</li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!--Carousel-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+        <div class="title-bg"></div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>不再错过任何一集！！</h1>
+              <p>TrackDog能够帮助你追踪你喜爱的动漫的最新更新，无论是动画，漫画让你一一收录囊中；唯一属于你的追踪清单让你踏上每集跟新的脚步；简单极致到爆的专注，我们只跟踪动漫。</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">从这里开始</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+<!--intro-->
+<div class="row-block with-bottom-border">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<h2 class="text-muted"><span class="glyphicon glyphicon-heart"></span></h2>
+				<h3>定有你喜欢</h3>
+				<p>我们收录了所有备受欢迎的动漫作品；超过1000种正在连载的动漫作品，必有你喜欢。</p>
+			</div>
+			<div class="col-md-4">
+				<h2 class="text-muted"><span class="glyphicon glyphicon-th-list"></span></h2>
+				<h3>追踪清单</h3>
+				<p>创建属于你的唯一无二的跟踪清单，将喜爱的动漫作品收入囊中吧。</p>
+			</div>
+			<div class="col-md-4">
+				<h2 class="text-muted"><span class="glyphicon glyphicon-repeat"></span></h2>
+				<h3>每日更新</h3>
+				<p>我们尽可能向您播报你喜爱的动漫更新状态；向您推送最为准确的信息。</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--popular today-->
+<div class="row-block with-bottom-border">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-md-12">
+				<h1>今日热点</h1>
+			</div>
+		</div>
+		<div class="row row-block text-center">
+			<div class="col-sm-6 col-md-3">
+				<img src="img/bleach.jpg" class="img-responsive">
+				<h4>死神</h4>
+			</div>
+			<div class="col-sm-6 col-md-3 text-center">
+				<img src="img/kenan.jpg" class="img-responsive">
+				<h4>柯南</h4>
+			</div>
+			<div class="col-sm-6 col-md-3 text-center">
+				<img src="img/onepiece.jpg" class="img-responsive">
+				<h4>海贼王</h4>
+			</div>
+			<div class="col-sm-6 col-md-3 text-center">
+				<img src="img/souleater.jpg" class="img-responsive">
+				<h4>噬魂师</h4>
+			</div>
+		</div>
+	</div>
+</div>
+<!--footer-->
+<div class="footer-bg">
+	<div class="container">
+		<div class="row hidden-xs">
+			<div class="col-sm-8 text-left">
+				<h6><a href="about/">关于</a>&nbsp  -  &nbsp<a href="contact/">联系我们</a>&nbsp - &nbsp<a href="blog/">官方博客</a>&nbsp - &nbsp<a href="ad/">广告合作</a>&nbsp</h6>
+				<h6>Copyright © 2014 TRACKDOG 粤ICP备12017804号</h6>
+			</div>
+			<div class="col-sm-4 text-right">
+				<h6><a href="#"><img src="./img/wechat.png"></a>&nbsp&nbsp&nbsp <a href="#"><img src="./img/weibo.png"></a>&nbsp&nbsp&nbsp <a href="#"><img src="./img/douba.png"></a></h6>
+			</div>
+		</div>
+		<div class="row visible-xs">
+			<div class="col-sm-12 text-center">
+				<h6><a href="about/">关于</a>&nbsp  -  &nbsp<a href="contact/">联系我们</a>&nbsp - &nbsp<a href="blog/">官方博客</a>&nbsp - &nbsp<a href="ad/">广告合作</a>&nbsp</h6>
+				<h6>Copyright © 2014 TRACKDOG 粤ICP备12017804号</h6>
+			</div>
+		</div>
+		<div class="row visible-xs">
+			<div class="col-xs-12 text-center">
+				<h6><a href="#"><img src="./img/wechat.png"></a>&nbsp&nbsp&nbsp <a href="#"><img src="./img/weibo.png"></a>&nbsp&nbsp&nbsp <a href="#"><img src="./img/douba.png"></a></h6>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+  </body>
+  <script type="text/javascript">
+  $('.myCarousel').carousel();
+  </script>
+</html>

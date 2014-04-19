@@ -1,0 +1,17 @@
+.row-block{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.with-bottom-border{
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.title-bg{
+	background: url(../img/title-bg.jpg) no-repeat center top;
+	height: 450px;
+}
+
+.footer-bg{
+	background:#EEEEEE;
+}
