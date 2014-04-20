@@ -39,3 +39,40 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.25);
 }
+
+.issue-card {
+	display:block;
+	margin-bottom: 25px;
+	background-color: #EEEEEE;
+	height: 70px;
+}
+.issue-img{
+	display: block;
+	float: left;
+}
+.issue-content{
+	margin-right: 10px;
+}
+
+.issue-title{
+	white-space: nowrap;
+	overflow: hidden;
+	padding-top:5px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	text-overflow:ellipsis;
+}
+
+.issue-update{
+	display: inline;
+}
+
+.issue-op{
+	display: inline;
+	float: right;
+}
+
+.issue-card img {
+	height: 70px;
+	margin-right: 10px;
+}
