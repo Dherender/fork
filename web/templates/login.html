@@ -1,0 +1,51 @@
+<%inherit file="/layout.html" />
+
+<%def name="main()">
+<!--login-->
+<div class="fullscreen-bg">
+</div>
+  	 <div class="container row-block">
+  	 	<div class="row">
+			<div class="col-sm-3">
+			</div>
+			<div class="col-sm-6">
+			<div class="well well-lg text-center">
+				<h3>登 录</h3>
+				<form class="form-group" role="form">
+				  <div class="form-group">
+				    <label class="sr-only" for="exampleInputEmail2">电子邮箱</label>
+				    <input type="email" class="form-control input-lg" id="exampleInputEmail2" placeholder="电子邮箱">
+				  </div>
+				  <div class="form-group">
+				    <label class="sr-only" for="exampleInputPassword2">密码</label>
+				    <input type="password" class="form-control input-lg" id="exampleInputPassword2" placeholder="密码">
+				  </div>
+				  <div class="row">
+					  <div class="col-xs-6">
+					  	<a class="btn btn-lg btn-block btn-primary" href="./pulllist.html" role="button">登 录</a>
+						<!--<button type="submit" class="btn btn-primary btn-block btn-lg">登 录</button>-->
+					  </div>
+					  <div class="col-xs-6">
+						<button type="submit" class="btn btn-default btn-block btn-lg">注 册</button>
+					  </div>
+				  </div>
+				</form>
+				
+				<div>&nbsp;</div>
+
+				<h5>您还可以使用下列合作网站账号登陆</h5>
+				<div class="row">
+					<div class="col-xs-2"><img src="./img/weibo-login.png" class="img-circle img-responsive"></div>
+					<div class="col-xs-2"><img src="./img/taobao-login.png" class="img-circle img-responsive"></div>
+					<div class="col-xs-2"><img src="./img/douban-login.png" class="img-circle img-responsive"></div>
+					<div class="col-xs-2"><img src="./img/qq-login.png" class="img-circle img-responsive"></div>
+					<div class="col-xs-2"><img src="./img/wechat-login.png" class="img-circle img-responsive"></div>
+					<div class="col-xs-2"><img src="./img/renren-login.png" class="img-circle img-responsive"></div>
+				</div>
+			</div>	
+			</div>
+			<div class="col-sm-3">
+			</div>
+  	 	</div>
+	 </div>
+</%def>

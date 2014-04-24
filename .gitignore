@@ -1,0 +1,7 @@
+/.idea
+*.pyc
+.noseids
+.DS_Store
+*.swp
+/static/.webassets-cache
+/static/gen

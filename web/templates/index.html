@@ -1,0 +1,75 @@
+<%inherit file="/layout.html" />
+
+<%def name="main()">
+<!--Carousel-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+        <div class="title-bg"></div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>不再错过任何一集！！</h1>
+              <p>TrackDog能够帮助你追踪你喜爱的动漫的最新更新，无论是动画，漫画让你一一收录囊中；唯一属于你的追踪清单让你踏上每集跟新的脚步；简单极致到爆的专注，我们只跟踪动漫。</p>
+              <p><a class="btn btn-lg btn-primary" href="/login" role="button">从这里开始</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
+<!--intro-->
+<div class="row-block with-bottom-border">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<h2 class="text-muted"><span class="glyphicon glyphicon-heart"></span></h2>
+				<h3>定有你喜欢</h3>
+				<p>我们收录了所有备受欢迎的动漫作品；超过1000种正在连载的动漫作品，必有你喜欢。</p>
+			</div>
+			<div class="col-md-4">
+				<h2 class="text-muted"><span class="glyphicon glyphicon-th-list"></span></h2>
+				<h3>追踪清单</h3>
+				<p>创建属于你的唯一无二的跟踪清单，将喜爱的动漫作品收入囊中吧。</p>
+			</div>
+			<div class="col-md-4">
+				<h2 class="text-muted"><span class="glyphicon glyphicon-repeat"></span></h2>
+				<h3>每日更新</h3>
+				<p>我们尽可能向您播报你喜爱的动漫更新状态；向您推送最为准确的信息。</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--popular today-->
+<div class="row-block with-bottom-border">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-md-12">
+				<h1>今日热点</h1>
+			</div>
+		</div>
+		<div class="row row-block text-center">
+			<div class="col-sm-6 col-md-3">
+				<img src="/static/img/bleach.jpg" class="img-responsive">
+				<h4>死神</h4>
+			</div>
+			<div class="col-sm-6 col-md-3 text-center">
+				<img src="/static/img/kenan.jpg" class="img-responsive">
+				<h4>柯南</h4>
+			</div>
+			<div class="col-sm-6 col-md-3 text-center">
+				<img src="/static/img/onepiece.jpg" class="img-responsive">
+				<h4>海贼王</h4>
+			</div>
+			<div class="col-sm-6 col-md-3 text-center">
+				<img src="/static/img/souleater.jpg" class="img-responsive">
+				<h4>噬魂师</h4>
+			</div>
+		</div>
+	</div>
+</div>
+</%def>
