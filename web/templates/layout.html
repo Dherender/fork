@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    ${self.more_meta()}
+    <title>${self.title()}</title>
+    ${self.css()}
+    <!-- COLLECTED CSS -->
+    ${self.js()}
+  </head>
+  <body>
+    <div class="header">
+      ${self.header()}
+    </div>
+    ${self.m_body()}
+    <div class="footer">
+      ${self.footer()}
+    </div>
+    <!-- COLLECTED JS -->
+    ${self.bottom_scripts()}
+  </body>
+</html>
+
+<%def name="m_body()">
+  <div class="wrapper">
+    ${self.headtitle()}
+    <div class="article">
+      ${self.main()}
+    </div>
+    <div class="aside">
+      ${self.sidebar()}
+    </div>
+  </div>
+</%def>
+
+<%def name="title()">TRACKDOG 追漫神器</%def>
+
+<%def name="header()">
+  <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+    <div class="container">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/" class="navbar-brand">TRACKDOG</a>
+      </div>
+      <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="/today">今日</a>
+          </li>
+          <li>
+            <a href="/tomorrow">明天</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+        	<li>
+  	      <a href="/register">加入</a>
+        	</li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+</%def>
+
+<%def name="footer()">
+  <div class="footer-bg">
+  	<div class="container">
+  		<div class="row hidden-xs">
+  			<div class="col-sm-8 text-left">
+  				<h6><a href="about/">关于</a>&nbsp  -  &nbsp<a href="contact/">联系我们</a>&nbsp - &nbsp<a href="blog/">官方博客</a>&nbsp - &nbsp<a href="ad/">广告合作</a>&nbsp</h6>
+  				<h6>Copyright © 2014 TRACKDOG 粤ICP备12017804号</h6>
+  			</div>
+  			<div class="col-sm-4 text-right">
+  				<h6><a href="#"><img src="static/img/wechat.png"></a>&nbsp&nbsp&nbsp <a href="#"><img src="static/img/weibo.png"></a>&nbsp&nbsp&nbsp <a href="#"><img src="static/img/douba.png"></a></h6>
+  			</div>
+  		</div>
+  		<div class="row visible-xs">
+  			<div class="col-sm-12 text-center">
+  				<h6><a href="about/">关于</a>&nbsp  -  &nbsp<a href="contact/">联系我们</a>&nbsp - &nbsp<a href="blog/">官方博客</a>&nbsp - &nbsp<a href="ad/">广告合作</a>&nbsp</h6>
+  				<h6>Copyright © 2014 TRACKDOG 粤ICP备12017804号</h6>
+  			</div>
+  		</div>
+  		<div class="row visible-xs">
+  			<div class="col-xs-12 text-center">
+  				<h6><a href="#"><img src="static/img/wechat.png"></a>&nbsp&nbsp&nbsp <a href="#"><img src="static/img/weibo.png"></a>&nbsp&nbsp&nbsp <a href="#"><img src="static/img/douba.png"></a></h6>
+  			</div>
+  		</div>
+  
+  	</div>
+  </div>
+</%def>
+
+<%def name="css()">
+  <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/css/sitecss.css">
+</%def>
+
+<%def name="js()">
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
+</%def>
+
+<%def name="bottom_scripts()">
+  <script type="text/javascript">
+  $('.myCarousel').carousel();
+  </script>
+</%def>
+
+<%def name="main()"></%def>
+<%def name="headtitle()"> </%def>
+<%def name="sidebar()"></%def>
+<%def name="more_meta()"></%def>
